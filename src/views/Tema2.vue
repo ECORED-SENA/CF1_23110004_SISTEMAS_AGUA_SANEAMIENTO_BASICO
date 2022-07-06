@@ -7,7 +7,7 @@
         span 2
       h1 Saneamiento básico
 
-    p El saneamiento básico se define como el conjunto de técnicas que permiten eliminar higiénicamente residuos sólidos, excretas y aguas residuales, para tener un ambiente limpio y sano.     
+    p El saneamiento básico se define como el conjunto de técnicas que permiten eliminar higiénicamente residuos sólidos, excretas y aguas residuales, para tener un ambiente limpio y sano. En el saneamiento básico se establecen cuatro (4) programas:      
 
     .bg_imgfondo1_t2
       .row.justify-content-center-align-items-center.mb-5

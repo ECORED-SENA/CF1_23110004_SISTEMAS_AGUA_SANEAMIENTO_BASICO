@@ -102,7 +102,7 @@
 
 .bg_imgfondo1_t1
   position: relative
-  p, ul, .row
+  p, ul, .row, p, .row, .row
     position: relative
   &::before
     content: ''
@@ -140,21 +140,22 @@ hr:not([size])
 
 .bg_imgfondo2_t1
   position: relative
-  p, ul, .row
+  .row, .row, p, separador, titulo
     position: relative
   &::before
     content: ''
     position: absolute
     margin: 0 0rem
-    top: -9rem
-    left: -48px
-    width: calc( 100% + 6rem)
-    height: 92%
+    top: -5rem
+    left: -5%
+    width: calc( 100% + 7rem)
+    height: 88%
     background-image: url("../assets/curso/tema1/imgfondo2-t1.svg")
     background-repeat: no-repeat
     background-size: cover
-    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-      top: -5rem  
+    @media screen and ( max-width: 992px )
+      top: -2rem
+      height: 72%
 
 .bg_fondo2
   position: relative
@@ -166,11 +167,15 @@ hr:not([size])
     margin: 0 -3rem
     top: 53px
     left: 0%
-    width: calc(100% + 6rem)
+    width: 87%
     height: 86%
     background-image: url("../assets/curso/tema1/img19.svg")
     background-repeat: no-repeat
-    background-size: cover    
+    background-size: cover   
+    @media screen and ( max-width: 992px ) 
+      left: 9%
+      width: 109%
+      height: 96%
   
 .margin_top1
   margin-top: 4rem

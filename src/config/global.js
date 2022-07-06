@@ -160,14 +160,14 @@ export default {
     {
       tema: 'Sistemas de tratamiento de aguas de consumo',
       referencia:
-        'Instituto Costarricense de acueductos y alcantarillados. (2021). Conozca el proceso de potabilización del agua',
+        'Instituto Costarricense de acueductos y alcantarillados. (2021). Conozca el proceso de potabilización del agua.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jMaV8EASe48',
     },
     {
       tema: 'Sistemas de tratamiento de aguas de consumo',
       referencia:
-        'Instituto Costarricense de acueductos y alcantarillados. (2018). Planta de Tratamiento de Aguas Residuales LOS TAJOS',
+        'Instituto Costarricense de acueductos y alcantarillados. (2018). Planta de Tratamiento de Aguas Residuales LOS TAJOS.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=i5tOXm96VGg',
     },
@@ -182,9 +182,9 @@ export default {
       tema: 'Manejo de sustancias químicas',
       referencia:
         'Carl Roth.  (2019).  Formato de ficha de datos de seguridad conforme al. Reglamento (CE) n.º 1907/2006 (REACH). Sulfato de aluminio y potasio dodecahidrato ≥99 %, Ph.Eur.',
-      tipo: '',
-      descarga:
-        'https://www.carlroth.com/medias/SDB-CN78-ES-ES.pdf?context=bWFzdGVyfHNlY3VyaXR5RGF0YXNoZWV0c3wyMzc5Mzl8YXBwbGljYXRpb24vcGRmfHNlY3VyaXR5RGF0YXNoZWV0cy9oODAvaDhhLzg5NTA5ODY4OTk0ODYucGRmfDljNzkwZGQ3MzE5YmExNDAwOTdhYmU0YWJkOTYyNWUzZjJmOWNmZTA5MTY2ZGNhZTBkZTFiM2RlNTNlMWMzYjk',
+      tipo: 'Documento',
+      link:
+        'https://www.carlroth.com/medias/SDB-CN78-ES-ES.pdf?context=bWFzdGVyfHNlY3VyaXR5RGF0YXNoZWV0c3wyMzYwNTZ8YXBwbGljYXRpb24vcGRmfHNlY3VyaXR5RGF0YXNoZWV0cy9oNDkvaGI2LzkwNjkxNzk0MDQzMTgucGRmfDQ1MDk1ZWNlMjUwMjA1YTVhZTdkZjEzMzhkZjJkODQ0MzQzNmY1YmNjN2ZhOTExMDdhNTZmNmQxMGZkMTczNDg',
     },
   ],
   glosario: [
@@ -231,12 +231,12 @@ export default {
     {
       referencia:
         'Apéndice -9. 2016. Pantas de Tratamiento de Aguas Residuales. Volumen III: Informe Auxiliar.',
-      link: 'https://openjicareport.jica.go.jp/pdf/11685211_09.PDF.',
+      link: 'https://openjicareport.jica.go.jp/pdf/11685211_09.PDF',
     },
     {
       referencia:
         'Hotmart. 2021. ¿Qué es el análisis FODA y cómo utilizarlo a tu favor?.',
-      link: 'https://blog.hotmart.com/es/analisis-dofa/#.',
+      link: 'https://blog.hotmart.com/es/analisis-dofa/#',
     },
     {
       referencia:
@@ -305,6 +305,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Juan Daniel Polanco Muñoz',
+        cargo: 'Validación de diseño',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -316,8 +322,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Juan Daniel Polanco Muñoz',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

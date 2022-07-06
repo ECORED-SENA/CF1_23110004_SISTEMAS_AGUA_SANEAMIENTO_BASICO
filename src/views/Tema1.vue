@@ -111,54 +111,51 @@
           figure(data-aos="zoom-in-down")
             img(src='@/assets/curso/tema1/imgfigura1.svg')
     
-    p Una vez realizada la captación y la primera filtración con el desarenador primario dispuesto en el inicio del sistema, se conduce el líquido hasta la planta de tratamiento para que cada una de las fases que se mencionan anteriormente inicien en operación.   
-    p <b>En el siguiente recurso se realiza una descripción de cada una de estas fases:</b>
+    .row
+      .col-12.col-md-12.col-lg-12
+        p Una vez realizada la captación y la primera filtración con el desarenador primario dispuesto en el inicio del sistema, se conduce el líquido hasta la planta de tratamiento para que cada una de las fases que se mencionan anteriormente inicien en operación.   
+        p <b>En el siguiente recurso se realiza una descripción de cada una de estas fases:</b>
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down-left") 
-      .row.justify-content-center(titulo="Elevación o aireación")
-        .col-12.col-md-5.col-lg-5
-          p Es la primera estación donde se realiza una aireación del líquido, el cual viene por medio de tubería. Esta aireación tiene como finalidad realizar un cambio en la velocidad el agua para la aplicación de los químicos para el proceso. 
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img13.svg')
-      .row.justify-content-center(titulo="Coagulación")
-        .col-12.col-md-5.col-lg-5
-          p En este proceso tiene acción los químicos adicionados para que las partículas coagulan, el más utilizado es el sulfato de aluminio, pero también son efectivos sustancias como el cloruro de aluminio, aluminato sódico, sulfato férrico, sulfato ferroso, cloruro ferroso y en algunos casos el ozono cuando se presentan materias orgánicas que están ligadas directamente a elementos como el manganeso o el hierro. 
-          p La coagulación busca principalmente la neutralización de los coloides para que finalmente se precipitan. Para la adición del coagulante se debe garantizar un gradiente de velocidad entre 700 y 1000s-1 de esta manera el químico utilizado se mezcla homogéneamente provocando la unión de las partículas en suspensión.
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img14.png')
-      .row.justify-content-center(titulo="Floculación")
-        .col-12.col-md-5.col-lg-5
-          p En la floculación se realiza una mezcla suave con el fin de no separar las partículas que se han formado en el proceso anterior. En esta parte del proceso los microflóculos se ponen en contacto con otros y así aumentan su tamaño al igual que su peso. Para apoyar esta actividad se pueden añadir polímetros de alto peso molecular llamados floculantes que fortalecen las uniones entre flóculos más pequeños para aumentar su peso y la velocidad de sedimentación.
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img15.png')              
-      .row.justify-content-center(titulo="Decantación")
-        .col-12.col-md-11.col-lg-11.mb-4.mb-md-0
-          p La decantación es un proceso físico en el que se separan diferentes componentes de acuerdo a su densidad. En el caso del tratamiento de agua potable la precipitación de los flóculos por su peso hace que se acumulen en el fondo del tanque de decantación, facilitando su evacuación por medio de un canal inferior o en algunos casos en los procesos de limpieza programados ya que el agua tratada es evacuada por la parte superior como podemos observar en la siguiente imagen. 
-        .row.justify-content-center
-          .col-12.col-md-5.col-lg-5
-            figure
-              img(src='@/assets/curso/tema1/img16.svg')            
-      .row.justify-content-center(titulo="Filtración")
-        .col-12.col-md-5.col-lg-5
-          p En esta parte del proceso se adaptan unos filtros a lo largo del tanque o canal de conducción dentro de la planta de tratamiento con el fin de que los sólidos suspendidos aún presentes en el agua que no fueron extraídos en las etapas anteriores, queden en dichos filtros antes de pasar a los procesos químicos de desinfección. Los filtros pueden ser de arena seleccionada, paneles filtrantes u otros materiales que garanticen el flujo del agua y la retención de los sólidos. 
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img17.svg')
-      .row.justify-content-center(titulo="Cloración y alcalinización")
-        .col-12.col-md-5.col-lg-5
-          p Cloración y alcalinización: La cloración es el proceso por el cual se añade al agua cloro para desinfectar y así evitar el crecimiento de patógenos que pueden afectar la salud del consumidor. La adición de cloro a el agua produce la acidificación de esta, es por ello que se hace necesaria la otra parte del proceso, la alcalinización, que básicamente es la adición de una base para alcanzar un pH entre 6,5 y 8,5 aceptable para agua potable, de esta manera se garantiza que el agua no tenga sabor, olor y color.
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img18.svg')
-      .row.justify-content-center(titulo="Cloración y alcalinización")
-        .col-12.col-md-5.col-lg-5
-          p Cloración y alcalinización: La cloración es el proceso por el cual se añade al agua cloro para desinfectar y así evitar el crecimiento de patógenos que pueden afectar la salud del consumidor. La adición de cloro a el agua produce la acidificación de esta, es por ello que se hace necesaria la otra parte del proceso, la alcalinización, que básicamente es la adición de una base para alcanzar un pH entre 6,5 y 8,5 aceptable para agua potable, de esta manera se garantiza que el agua no tenga sabor, olor y color. 
-        .col-12.col-md-6.col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/img18.svg')
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down-left") 
+          .row.justify-content-center(titulo="Elevación o aireación")
+            .col-12.col-md-5.col-lg-5
+              p Es la primera estación donde se realiza una aireación del líquido, el cual viene por medio de tubería. Esta aireación tiene como finalidad realizar un cambio en la velocidad el agua para la aplicación de los químicos para el proceso. 
+            .col-12.col-md-6.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img13.svg')
+          .row.justify-content-center(titulo="Coagulación")
+            .col-12.col-md-5.col-lg-5
+              p En este proceso tiene acción los químicos adicionados para que las partículas coagulan, el más utilizado es el sulfato de aluminio, pero también son efectivos sustancias como el cloruro de aluminio, aluminato sódico, sulfato férrico, sulfato ferroso, cloruro ferroso y en algunos casos el ozono cuando se presentan materias orgánicas que están ligadas directamente a elementos como el manganeso o el hierro. 
+              p La coagulación busca principalmente la neutralización de los coloides para que finalmente se precipitan. Para la adición del coagulante se debe garantizar un gradiente de velocidad entre 700 y 1000s-1 de esta manera el químico utilizado se mezcla homogéneamente provocando la unión de las partículas en suspensión.
+            .col-12.col-md-6.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img14.png')
+          .row.justify-content-center(titulo="Floculación")
+            .col-12.col-md-5.col-lg-5
+              p En la floculación se realiza una mezcla suave con el fin de no separar las partículas que se han formado en el proceso anterior. En esta parte del proceso los microflóculos se ponen en contacto con otros y así aumentan su tamaño al igual que su peso. Para apoyar esta actividad se pueden añadir polímetros de alto peso molecular llamados floculantes que fortalecen las uniones entre flóculos más pequeños para aumentar su peso y la velocidad de sedimentación.
+            .col-12.col-md-6.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img15.png')              
+          .row.justify-content-center(titulo="Decantación")
+            .col-12.col-md-11.col-lg-11.mb-4.mb-md-0
+              p La decantación es un proceso físico en el que se separan diferentes componentes de acuerdo a su densidad. En el caso del tratamiento de agua potable la precipitación de los flóculos por su peso hace que se acumulen en el fondo del tanque de decantación, facilitando su evacuación por medio de un canal inferior o en algunos casos en los procesos de limpieza programados ya que el agua tratada es evacuada por la parte superior como podemos observar en la siguiente imagen. 
+            .row.justify-content-center
+              .col-12.col-md-5.col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img16.svg')            
+          .row.justify-content-center(titulo="Filtración")
+            .col-12.col-md-5.col-lg-5
+              p En esta parte del proceso se adaptan unos filtros a lo largo del tanque o canal de conducción dentro de la planta de tratamiento con el fin de que los sólidos suspendidos aún presentes en el agua que no fueron extraídos en las etapas anteriores, queden en dichos filtros antes de pasar a los procesos químicos de desinfección. Los filtros pueden ser de arena seleccionada, paneles filtrantes u otros materiales que garanticen el flujo del agua y la retención de los sólidos. 
+            .col-12.col-md-6.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img17.svg')
+          .row.justify-content-center(titulo="Cloración y alcalinización")
+            .col-12.col-md-5.col-lg-5
+              p Cloración y alcalinización: La cloración es el proceso por el cual se añade al agua cloro para desinfectar y así evitar el crecimiento de patógenos que pueden afectar la salud del consumidor. La adición de cloro a el agua produce la acidificación de esta, es por ello que se hace necesaria la otra parte del proceso, la alcalinización, que básicamente es la adición de una base para alcanzar un pH entre 6,5 y 8,5 aceptable para agua potable, de esta manera se garantiza que el agua no tenga sabor, olor y color.
+            .col-12.col-md-6.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img18.svg')
+    
 
     .bg_imgfondo2_t1
       .row.justify-content-center

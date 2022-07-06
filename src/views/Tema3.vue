@@ -55,7 +55,7 @@
             .tarjeta.color-acento-botones.p-3.bg_colorF(x="73.3%" y="41.6%" numero="+")
               .row.align-items-center
                 .col-md-2
-                  p <b>Fortaleza</b>
+                  p <b>Fortalezas</b>
                 .col-md-10.flex-end
                   img(src="@/assets/curso/tema3/img08.svg" style= "width:40px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-3

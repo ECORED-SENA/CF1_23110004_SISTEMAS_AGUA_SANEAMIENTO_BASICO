@@ -7,13 +7,15 @@
         span 4
       h1 Equipos e insumos 
 
-    .bg_fondo1-t4.mb-5
+    .bg_fondo1-t4
       .row.justify-content-center.align-items-center
         .col-12.col-md-6.col-lg-6.flex-center-text.mb-5.mb-md-0
           p.m-0(data-aos="fade-right") En los sistemas de tratamiento de aguas ya sean potables para consumo humano o residuales para disminución de la contaminación, se utilizan una serie de insumos químicos para su tratamiento. Estos a su vez se convierten en gastos que se deben tener en cuenta al momento de la planificación; para que el sistema sea viable debe ser subsidiado por los beneficiarios.
         .col-12.col-md-4.col-lg-4.m-top
           figure
-            img(src="@/assets/curso/tema4/img01.png")(data-aos="fade-left")  
+            img(src="@/assets/curso/tema4/img01.png")(data-aos="fade-left") 
+
+    Separador 
 
     .bg_imgfondo_t4
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")

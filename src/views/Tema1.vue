@@ -7,14 +7,16 @@
         span 1
       h1 Sistemas de tratamiento de aguas de consumo 
 
-    .bg_fondo1.mb-5
+    .bg_fondo1
       .row.justify-content-center.align-items-center
         .col-12.col-md-7.col-lg-7(data-aos="fade-right")
           p.mt-5 <b>Los sistemas de tratamiento de agua varían de acuerdo a las necesidades que se tenga,</b> por ejemplo, un <b>sistema de agua potable</b> tiene como finalidad reducir la carga contaminante presente en el efluente para que sea apta para el consumo, a diferencia de un <b>sistema de tratamiento para riego</b>, el cual tendría un sistema menos complejo para lograr suplir la necesidad presentada. 
           p <b>Estudiemos cada una de sus etapas.</b>                     
         .col-12.col-md-4.col-lg-4
           figure
-            img(src="@/assets/curso/tema1/img02.png")(data-aos="fade-left")  
+            img(src="@/assets/curso/tema1/img02.png")(data-aos="fade-left") 
+
+    Separador 
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 1.1	Captación y tratamiento
@@ -22,82 +24,87 @@
     p Conozcamos qué es la captación a través del siguiente recurso.
 
     .row.justify-content-center
-        .col-12.col-md-12.col-lg-12
-          .tarjeta.p-4.mb-5.bg_slyder
-            SlyderA(tipo="b")
-              .row.justify-content-around.align-items-center
-                .col-12.col-md-5.col-lg-6(data-aos="fade-right") 
-                  p Para la construcción de una planta de tratamiento de agua potable es indispensable la ubicación del sistema de captación, que es el que va a permitir tomar el agua, ya sea de forma superficial: de ríos, quebradas, embalses, o de forma subterránea: de pozos o canales presentes bajo tierra por medio de bombeo. 
-                  p Para reducir los costos de operación es recomendable que la captación y la conducción se realice aguas arriba de la planta de tratamiento, para evitar realizar bombeo.      
-                .col-12.col-md-4.col-lg-5(data-aos="fade-left") 
-                  figure
-                    img(src='@/assets/curso/tema1/img04.svg')
+      .col-12.col-md-11.col-lg-11
+        .tarjeta.p-4.mb-5.bg_slyder
+          SlyderA(tipo="b")
+            .row.justify-content-around.align-items-center
+              .col-12.col-md-5.col-lg-6(data-aos="fade-right") 
+                p Para la construcción de una planta de tratamiento de agua potable es indispensable la ubicación del sistema de captación, que es el que va a permitir tomar el agua, ya sea de forma superficial: de ríos, quebradas, embalses, o de forma subterránea: de pozos o canales presentes bajo tierra por medio de bombeo. 
+                p Para reducir los costos de operación es recomendable que la captación y la conducción se realice aguas arriba de la planta de tratamiento, para evitar realizar bombeo.      
+              .col-12.col-md-4.col-lg-5(data-aos="fade-left") 
+                figure
+                  img(src='@/assets/curso/tema1/img04.svg')
 
-              .row.justify-content-around.align-items-center
-                .col-12.col-md-5.col-lg-6
-                  p Una vez definido el efluente se realiza los análisis de aguas para verificar la calidad de la fuente, de esta manera se garantiza que el tratamiento que se diseñe sea acorde a los resultados del análisis. Se debe definir el punto de captación y el tipo de infraestructura para hacerlo, esto no lo da la topografía del terreno y el caudal de la fuente, ya que por ejemplo si se tiene una fuente de un caudal bajo y poca profundidad, se necesitará realizar un represamiento de agua para garantizar la toma. 
-                .col-12.col-md-4.col-lg-5
-                  figure
-                    img(src='@/assets/curso/tema1/img05.svg', alt='AvatarTop')
+            .row.justify-content-around.align-items-center
+              .col-12.col-md-5.col-lg-6
+                p Una vez definido el efluente se realiza los análisis de aguas para verificar la calidad de la fuente, de esta manera se garantiza que el tratamiento que se diseñe sea acorde a los resultados del análisis. Se debe definir el punto de captación y el tipo de infraestructura para hacerlo, esto no lo da la topografía del terreno y el caudal de la fuente, ya que por ejemplo si se tiene una fuente de un caudal bajo y poca profundidad, se necesitará realizar un represamiento de agua para garantizar la toma. 
+              .col-12.col-md-4.col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img05.svg', alt='AvatarTop')
 
-              .row.justify-content-around.align-items-center
-                .col-12.col-md-5.col-lg-6
-                  p Existen varios tipos de captación debido a que hay diferentes factores a tener en cuenta para la elección del sistema. Uno de los más comunes es la captación que se hace por medio de un canal sumergido el cual contiene una rejilla que ayudara a restringir el paso de materiales de gran tamaño que pueden obstruir la tubería de conducción y a pocos metros de este sistema se instala un desarenador, cuya principal función es desalojar el materia suspendido de gran tamaño que pasa por la rejilla por la acción de la gravedad.      
-                .col-12.col-md-5.col-lg-5
-                  figure
-                    img(src='@/assets/curso/tema1/img06.svg', alt='AvatarTop')
+            .row.justify-content-around.align-items-center
+              .col-12.col-md-5.col-lg-6
+                p Existen varios tipos de captación debido a que hay diferentes factores a tener en cuenta para la elección del sistema. Uno de los más comunes es la captación que se hace por medio de un canal sumergido el cual contiene una rejilla que ayudara a restringir el paso de materiales de gran tamaño que pueden obstruir la tubería de conducción y a pocos metros de este sistema se instala un desarenador, cuya principal función es desalojar el materia suspendido de gran tamaño que pasa por la rejilla por la acción de la gravedad.      
+              .col-12.col-md-5.col-lg-5
+                figure
+                  img(src='@/assets/curso/tema1/img06.svg', alt='AvatarTop')
 
     .bg_imgfondo1_t1
       p.mb-5 Para ampliar la información sobre la captación, lo invitamos a leer el recurso <b>“Toma de agua”</b>, que se encuentra en el material complementario.
 
-      ul.lista-ul(data-aos="zoom-out-right")
-        li 
-          <i class="fas fa-tint" style= "color:#00CAF2 !important;"></i>
-          h4 Tratamiento
-            hr 
+      .row(data-aos="zoom-out-right").mb-4.mb-md-0
+        .col-lg-2
+          .row.justify.content-between.align-items-center
+            .col-lg-2
+              figure
+                img.img_24.d-none.d-lg-block(src='@/assets/curso/tema2/icon-gota.svg')
+            .col-lg-2
+              h4.m-0.mb-1 Tratamiento
+              figure
+                img.img_124(src='@/assets/curso/tema2/linea.svg')
 
-      .row.justify-content-center.align-items-center(data-aos="fade-up")
-        .col-12.col-xl-5.col-lg-5.col-md-5
+      .row.justify-content-between.align-items-center(data-aos="fade-up")
+        .col-12.col-md-5.col-lg-5.col-xl-5
           p Gracias al análisis de aguas realizado en el punto de captación, que permite conocer las condiciones de la fuente receptora, se puede con mayor certeza elegir el sistema de tratamiento. 
           p.m-0 El tratamiento tiene diferentes procesos en los que se realizan acciones que van aportando para la descontaminación del agua captada para finalmente realizar su distribución. <b>Estas fases son:</b>
-        .col-12.col-xl-7.col-lg-7.col-md-7.display_tarjetas2
+        .col-12.col-md-7.col-lg-7.col-xl-7.display_tarjetas2
           SlyderF.mb-4(columnas="col-md-6.col-lg-6 col-xl-6")
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Elevación o aireación. 
-                    p.m-0 01        
+                img.img57(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center Elevación o aireación. 
+                    h3.m-0.color_num 01        
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Coagulación.
-                    p.m-0 02 
+                img.img57(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center Coagulación.
+                    h3.m-0.color_num 02 
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Floculación.  
-                    p.m-0 03
+                img.img57(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center Floculación.  
+                    h3.m-0.color_num 03
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Decantación.
-                    p.m-0 04
+                img.img57(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center Decantación.
+                    h3.m-0.color_num 04
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Filtración.
-                    p.m-0 05
+                img.img57(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center Filtración.
+                    h3.m-0.color_num 05
               .tarjeta-avatar
-                img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
-                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
-                  .p-4
-                    h4.text-center Cloración y alcalinización.
-                    p.m-0 06
+                img.img57(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
+                .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded.img262
+                  .p-2
+                    p.text-center.mx-4 Cloración y alcalinización.
+                    h3.color_num.margin_tarnum6 06
 
       p.mb-5 La siguiente imagen nos presenta el orden de estas fases en el proceso de tratamiento de agua potable.
 
@@ -122,7 +129,7 @@
               p Es la primera estación donde se realiza una aireación del líquido, el cual viene por medio de tubería. Esta aireación tiene como finalidad realizar un cambio en la velocidad el agua para la aplicación de los químicos para el proceso. 
             .col-12.col-md-6.col-lg-6
               figure
-                img(src='@/assets/curso/tema1/img13.svg')
+                img(src='@/assets/curso/tema1/img13.png')
           .row.justify-content-center(titulo="Coagulación")
             .col-12.col-md-5.col-lg-5
               p En este proceso tiene acción los químicos adicionados para que las partículas coagulan, el más utilizado es el sulfato de aluminio, pero también son efectivos sustancias como el cloruro de aluminio, aluminato sódico, sulfato férrico, sulfato ferroso, cloruro ferroso y en algunos casos el ozono cuando se presentan materias orgánicas que están ligadas directamente a elementos como el manganeso o el hierro. 
@@ -154,7 +161,7 @@
               p Cloración y alcalinización: La cloración es el proceso por el cual se añade al agua cloro para desinfectar y así evitar el crecimiento de patógenos que pueden afectar la salud del consumidor. La adición de cloro a el agua produce la acidificación de esta, es por ello que se hace necesaria la otra parte del proceso, la alcalinización, que básicamente es la adición de una base para alcanzar un pH entre 6,5 y 8,5 aceptable para agua potable, de esta manera se garantiza que el agua no tenga sabor, olor y color.
             .col-12.col-md-6.col-lg-6
               figure
-                img(src='@/assets/curso/tema1/img18.svg')
+                img(src='@/assets/curso/tema1/img18.png')
     
 
     .bg_imgfondo2_t1

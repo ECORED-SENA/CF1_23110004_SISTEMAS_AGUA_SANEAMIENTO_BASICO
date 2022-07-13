@@ -102,7 +102,7 @@
 
 .bg_imgfondo1_t1
   position: relative
-  p, ul, .row, p, .row, .row
+  p, .row, .row, p, .row, .row
     position: relative
   &::before
     content: ''
@@ -123,14 +123,31 @@ hr:not([size])
 
 .display_tarjetas2
   .tarjeta-avatar .tarjeta 
-    display: inherit   
+    display: inherit 
+    max-width: 262px
+    margin-left: auto
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      max-width: 240px  
+    @media ( max-width: 420px )
+      max-width: 230px
+      margin-left: 20px
+
 .tarjeta.color-acento-contenido 
     background-color: #fff
 .tarjeta.color-acento-contenido *
     color: #12263F
 .tarjeta-avatar > img
-    top: 30px
+    left: 50%
+    top: 25%
     width: 100px
+
+.slyder-f__btn i   
+  color: #133D60 
+
+.slyder-f__main
+    width: 84%
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+        width: 88%
 
 .tarjeta--azul 
     background-color: #E7F4E7
@@ -483,9 +500,9 @@ hr:not([size])
     margin-top: 0.5rem
 
 .text_tarjeta4
-  margin-bottom: 0rem
+  margin-bottom: 5rem
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-    margin-bottom: 3rem
+    margin-bottom: 12rem
   
 .bg_colortar-t2-1 
     position: relative
@@ -550,3 +567,43 @@ hr:not([size])
   @media ( max-width: 590px )
     margin-top: -23%
     width: 91%
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto
+
+.banner-interno__titulo__icono 
+    background-color: white
+.banner-interno__titulo h2
+    color: white
+
+.slyder-a__btn--sigt
+  background-image: url("../assets/curso/tema1/flecha.svg")
+  transform: rotate(0deg)!important
+.slyder-a__btn--atrs
+  background-image: url("../assets/curso/tema1/flecha.svg")
+  transform: rotate(180deg)!important
+
+.img_24
+  max-width: 30px
+  width: 23px
+
+.img_124
+  max-width: 130px
+  width: 124px
+
+.img57
+  max-width: 57px
+
+.img262
+  width: 262px!important
+  height: 139px!important
+  @media screen and ( max-width: 992px )
+    width: 220px
+
+
+.color_num
+  color: #C3C3C3!important 
+
+.margin_tarnum6
+    margin-top: -23px
+

@@ -33,20 +33,20 @@
             .tarjeta.color-acento-botones.p-3.bg_colorD(x="24.8%" y="41.6%" numero="+")
               .row.align-items-center
                 .col-md-2
-                  p <b>Debilidades</b>
+                  p.m-0 <b>Debilidades</b>
                 .col-md-10.flex-end
-                  img(src="@/assets/curso/tema3/img06.svg" style= "width:38px")
+                  img.mb-2(src="@/assets/curso/tema3/img06.svg" style= "width:38px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3
                   .row
                     .col-md-12  
                       p Se trata de elementos nocivos que tiene la empresa y generan una posición poco propicia comparada con otras organizaciones. Se asocia con el faltante de recursos, con las habilidades no desarrolladas y con la falta de planeación, entre otras.
 
             .tarjeta.color-acento-botones.p-3.bg_colorO(x="48.7%" y="41.6%" numero="+")
-              .row.justify-content-between.align-items-center
+              .row.align-items-center
                 .col-md-2
-                  p <b>Oportunidades</b>
+                  p.m-0 <b>Oportunidades</b>
                 .col-md-10.flex-end
-                  img(src="@/assets/curso/tema3/img07.svg" style= "width:35px")
+                  img.mb-2(src="@/assets/curso/tema3/img07.svg" style= "width:35px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-2
                   .row
                     .col-md-12  
@@ -55,9 +55,9 @@
             .tarjeta.color-acento-botones.p-3.bg_colorF(x="73.3%" y="41.6%" numero="+")
               .row.align-items-center
                 .col-md-2
-                  p <b>Fortalezas</b>
+                  p.m-0 <b>Fortalezas</b>
                 .col-md-10.flex-end
-                  img(src="@/assets/curso/tema3/img08.svg" style= "width:40px")
+                  img.mb-2(src="@/assets/curso/tema3/img08.svg" style= "width:40px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-3
                   .row
                     .col-md-12  
@@ -65,10 +65,10 @@
             
             .tarjeta.color-acento-botones.p-3.bg_colorA(x="97.6%" y="41.9%" numero="+")
               .row.align-items-center
-                .col-md-2.col-lg-2
-                  p <b>Amenazas</b>
-                .col-md-9.col-lg-9.flex-end
-                  img(src="@/assets/curso/tema3/img09.svg" style= "width:37px")
+                .col-md-2
+                  p.m-0 <b>Amenazas</b>
+                .col-md-10.flex-end
+                  img.mb-2(src="@/assets/curso/tema3/img09.svg" style= "width:37px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-4
                   .row
                     .col-md-12.col-lg-12  

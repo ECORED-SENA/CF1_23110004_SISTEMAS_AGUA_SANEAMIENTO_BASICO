@@ -7,10 +7,10 @@
         span 2
       h1 Saneamiento básico
 
-    p El saneamiento básico se define como el conjunto de técnicas que permiten eliminar higiénicamente residuos sólidos, excretas y aguas residuales, para tener un ambiente limpio y sano. En el saneamiento básico se establecen cuatro (4) programas:      
+    p(data-aos="fade-right") El saneamiento básico se define como el conjunto de técnicas que permiten eliminar higiénicamente residuos sólidos, excretas y aguas residuales, para tener un ambiente limpio y sano. En el saneamiento básico se establecen cuatro (4) programas:      
 
     .bg_imgfondo1_t2
-      .row.justify-content-center-align-items-center.mb-5
+      .row.justify-content-center-align-items-center(data-aos="fade-up")
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           figure.filter_tarjetas-t2
             img.mb-4.mb-md-0(src='@/assets/curso/tema2/img01.png')
@@ -39,6 +39,8 @@
             .p-2
               p.text-center.text_tarjeta4 Programa de manejo de desechos sólidos, líquidos y desechos peligrosos
 
+      Separador
+
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.1	Características del sistema
 
@@ -47,7 +49,7 @@
           p Una Planta de Tratamiento de Aguas Residuales (PTAR) es indispensable para la preservación, conservación de vida en el planeta y el cuidado del agua. A medida del paso de los años, los métodos y tecnologías para el tratamiento de aguas residuales han mejorado notablemente. Muchas de estos conjuntos de técnicas para el tratamiento de aguas, permiten una recuperación de recursos y dan un valor importante al residuo que se genera.
         .col-12.col-md-4.col-lg-4.mb-4.mb-md-0(data-aos="fade-up")
           figure
-            img(src='@/assets/curso/tema2/img05.svg')
+            img(src='@/assets/curso/tema2/img05.png')
         .col-12.col-md-4.col-lg-4(data-aos="fade-down")
           .tarjeta-color.bg_color1.p-2.mb-4
             figure.mb-4
@@ -208,7 +210,7 @@
                 | Separación y filtración de sólidos, el agregado de cloruro férrico ayuda a precipitar en gran parte a la remoción de fósforo y ayuda a precipitar biosólidos.       
       .col-12.col-md-5.mb-4.mb-md-0
         figure
-          img(src='@/assets/curso/tema2/img12.svg')(data-aos="fade-left")
+          img(src='@/assets/curso/tema2/img12.png')(data-aos="fade-left")
     
     p.mb-5 En la siguiente imagen se pueden observar un diagrama del tratamiento primario más el tratamiento biológico.
 

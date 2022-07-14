@@ -31,10 +31,10 @@
                 img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')(data-aos="fade-down") 
 
             .tarjeta.color-acento-botones.p-3.bg_colorD(x="24.8%" y="41.6%" numero="+")
-              .row.align-items-center
-                .col-md-2
+              .row
+                .col-9
                   p.m-0 <b>Debilidades</b>
-                .col-md-10.flex-end
+                .col-3.flex-end
                   img.mb-2(src="@/assets/curso/tema3/img06.svg" style= "width:38px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3
                   .row
@@ -42,10 +42,10 @@
                       p Se trata de elementos nocivos que tiene la empresa y generan una posición poco propicia comparada con otras organizaciones. Se asocia con el faltante de recursos, con las habilidades no desarrolladas y con la falta de planeación, entre otras.
 
             .tarjeta.color-acento-botones.p-3.bg_colorO(x="48.7%" y="41.6%" numero="+")
-              .row.align-items-center
-                .col-md-2
+              .row
+                .col-9
                   p.m-0 <b>Oportunidades</b>
-                .col-md-10.flex-end
+                .col-3.flex-end
                   img.mb-2(src="@/assets/curso/tema3/img07.svg" style= "width:35px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-2
                   .row
@@ -53,10 +53,10 @@
                       p Son factores positivos que resultan favorables y que al momento de ser identificados por la empresa pueden ser aprovechados. Un ejemplo de este factor es la exploración de nuevos mercados o la posibilidad de exportación.
 
             .tarjeta.color-acento-botones.p-3.bg_colorF(x="73.3%" y="41.6%" numero="+")
-              .row.align-items-center
-                .col-md-2
+              .row
+                .col-9
                   p.m-0 <b>Fortalezas</b>
-                .col-md-10.flex-end
+                .col-3.flex-end
                   img.mb-2(src="@/assets/curso/tema3/img08.svg" style= "width:40px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-3
                   .row
@@ -64,10 +64,10 @@
                       p Congrega elementos positivos de la empresa, es decir, son esas capacidades o recursos especiales que la hacen fuerte ante otras organizaciones. Un aspecto para determinar las fortalezas de la empresa consiste en establecer con claridad una visión, misión y objetivos precisos.
             
             .tarjeta.color-acento-botones.p-3.bg_colorA(x="97.6%" y="41.9%" numero="+")
-              .row.align-items-center
-                .col-md-2
+              .row
+                .col-9
                   p.m-0 <b>Amenazas</b>
-                .col-md-10.flex-end
+                .col-3.flex-end
                   img.mb-2(src="@/assets/curso/tema3/img09.svg" style= "width:37px")
                 .tarjeta.color-acento-botones.p-4.bg_color_tar1info-t3-4
                   .row

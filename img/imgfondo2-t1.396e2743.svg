@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328.004" height="1430.302" viewBox="0 0 1328.004 1430.302">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_45288" data-name="Rectángulo 45288" width="1328.004" height="1430.302" transform="translate(1335.004 2166.415) rotate(180)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.493" y1="0.391" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aedafc"/>
+      <stop offset="1" stop-color="#78bff7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.519" y1="0.291" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bbdffc"/>
+      <stop offset="1" stop-color="#bbdffc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.547" y1="0.248" x2="0.544" y2="0.456" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c5e5fe"/>
+      <stop offset="0.429" stop-color="#ddeffe" stop-opacity="0.573"/>
+      <stop offset="1" stop-color="#fdfdfd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.538" y2="0.4" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5b97c4"/>
+      <stop offset="1" stop-color="#fafafa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_141246" data-name="Enmascarar grupo 141246" transform="translate(-7 -736.113)" opacity="0.404" clip-path="url(#clip-path)">
+    <path id="Trazado_194002" data-name="Trazado 194002" d="M1678.531,215.441C1558.21,109.744,1552.724,18.1,1436.392,1.33S1185.461,91.292,743.825,131.2,166.965,65.549-.058,184.8L-.284,902.288l1714.836-.539.2-650.139A383.139,383.139,0,0,0,1678.531,215.441Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 1378.862, 2051.468)" opacity="0.307" fill="url(#linear-gradient)"/>
+    <path id="Trazado_194003" data-name="Trazado 194003" d="M1928.35,215.257c-134.7-72.978-238.491-207.492-713.324-100.026S473.07-.149,385.889-.121C-29.258.009,209.792,123.366,39.226,215.851l-39.294.012-.008,24.151-.061,194.9-.078,246.52,1968.265-.619.078-246.912.061-194.117A391.962,391.962,0,0,0,1928.35,215.257Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 1614.439, 2151.411)" opacity="0.145" fill="url(#linear-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Trazado_194004" data-name="Trazado 194004" d="M-.014,43.439S270.563,58.333,901.343,254.358s1127.245-255,1127.245-255l75.338,2361.949-2030.136.638S1.533,41.94-.014,43.439Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 1533.957, 2290.704)" opacity="0.47" fill="url(#linear-gradient-3)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Trazado_194005" data-name="Trazado 194005" d="M429.45,163.78C-185.069-32.25,40.365,43.426,40.365,43.426c1.506-1.5-1.63,392.448-1.63,392.448l-.629,1996.377,1977.807-.622.629-1996.377.037-116.3.1-319.584S1878.658,308.6,1463.151,269.71,1005.287,460.933,429.45,163.78Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 1726.318, 2273.701)" opacity="0.097" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

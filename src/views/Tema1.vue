@@ -44,13 +44,13 @@
 
             .row.justify-content-around.align-items-center
               .col-12.col-md-5.col-lg-6
-                p Existen varios tipos de captación debido a que hay diferentes factores a tener en cuenta para la elección del sistema. Uno de los más comunes es la captación que se hace por medio de un canal sumergido el cual contiene una rejilla que ayudara a restringir el paso de materiales de gran tamaño que pueden obstruir la tubería de conducción y a pocos metros de este sistema se instala un desarenador, cuya principal función es desalojar el materia suspendido de gran tamaño que pasa por la rejilla por la acción de la gravedad.      
+                p Existen varios tipos de captación debido a que hay diferentes factores a tener en cuenta para la elección del sistema. Uno de los más comunes es la captación que se hace por medio de un canal sumergido el cual contiene una rejilla que ayudara a restringir el paso de materiales de gran tamaño que pueden obstruir la tubería de conducción y a pocos metros de este sistema se instala un desarenador, cuya principal función es desalojar el material suspendido de gran tamaño que pasa por la rejilla por la acción de la gravedad.      
               .col-12.col-md-5.col-lg-5
                 figure
                   img(src='@/assets/curso/tema1/img06.svg', alt='AvatarTop')
 
     .bg_imgfondo1_t1
-      p.mb-5 Para ampliar la información sobre la captación, lo invitamos a leer el recurso <b>“Toma de agua”</b>, que se encuentra en el material complementario.
+      p.mb-5 Para ampliar la información sobre la captación, lo invitamos a leer el recurso <b>“Tomas de agua”</b>, que se encuentra en el material complementario.
 
       .row(data-aos="zoom-out-right").mb-4.mb-md-0
         .col-lg-2
@@ -133,13 +133,13 @@
           .row.justify-content-center(titulo="Coagulación")
             .col-12.col-md-5.col-lg-5
               p En este proceso tiene acción los químicos adicionados para que las partículas coagulan, el más utilizado es el sulfato de aluminio, pero también son efectivos sustancias como el cloruro de aluminio, aluminato sódico, sulfato férrico, sulfato ferroso, cloruro ferroso y en algunos casos el ozono cuando se presentan materias orgánicas que están ligadas directamente a elementos como el manganeso o el hierro. 
-              p La coagulación busca principalmente la neutralización de los coloides para que finalmente se precipitan. Para la adición del coagulante se debe garantizar un gradiente de velocidad entre 700 y 1000s-1 de esta manera el químico utilizado se mezcla homogéneamente provocando la unión de las partículas en suspensión.
+              p La coagulación busca principalmente la neutralización de los coloides para que finalmente se precipitan. Para la adición del coagulante se debe garantizar un gradiente de velocidad entre 700 y 1000s<sup>-1</sup> de esta manera el químico utilizado se mezcla homogéneamente provocando la unión de las partículas en suspensión.
             .col-12.col-md-6.col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img14.png')
           .row.justify-content-center(titulo="Floculación")
             .col-12.col-md-5.col-lg-5
-              p En la floculación se realiza una mezcla suave con el fin de no separar las partículas que se han formado en el proceso anterior. En esta parte del proceso los microflóculos se ponen en contacto con otros y así aumentan su tamaño al igual que su peso. Para apoyar esta actividad se pueden añadir polímetros de alto peso molecular llamados floculantes que fortalecen las uniones entre flóculos más pequeños para aumentar su peso y la velocidad de sedimentación.
+              p En la floculación se realiza una mezcla suave con el fin de no separar las partículas que se han formado en el proceso anterior. En esta parte del proceso los microflóculos se ponen en contacto con otros y así aumentan su tamaño al igual que su peso. Para apoyar esta actividad se pueden añadir polímeros de alto peso molecular llamados floculantes que fortalecen las uniones entre flóculos más pequeños para aumentar su peso y la velocidad de sedimentación.
             .col-12.col-md-6.col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img15.png')              

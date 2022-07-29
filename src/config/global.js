@@ -222,7 +222,7 @@ export default {
         'Es el conjunto de técnicas que permite eliminar higiénicamente residuos sólidos, excretas y aguas residuales, para tener un ambiente limpio y sano.',
     },
     {
-      termino: 'Vertimientos ',
+      termino: 'Vertimientos',
       significado:
         'Es la descarga final a un cuerpo de agua, a un alcantarillado o al suelo, de elementos, sustancias o compuestos contendidos en un medio líquido.',
     },

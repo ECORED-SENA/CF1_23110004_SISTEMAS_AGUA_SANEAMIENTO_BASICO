@@ -141,7 +141,7 @@
                 p.m-0 Sedimentación secundaria.
           div(titulo="Tratamiento terciario")
             p.ms-4.me-3 Consiste en procesos físicos y químicos especiales con los que se consigue limpiar las aguas de contaminantes concretos: fósforo, nitrógeno, minerales, metales pesados, virus, compuestos orgánicos, etc. De los tres tipos de tratamiento de aguas residuales este es más caro que los anteriores y se usa en casos más especiales como por ejemplo para purificar desechos de algunas industrias.
-            p.m-0.ms-4.me-3 Muchas veces el tratamiento terciario se emplea para mejorar los efluentes del tratamiento biológico secundario. Se ha empleado la filtración rápida en arena para poder eliminar mejor los sólidos y nutrientes en suspensión y reducir la demanda bioquímica de oxígeno. (pasos adicionales como lagunas, micro filtración o desinfección).
+            p.m-0.ms-4.me-3 Muchas veces el tratamiento terciario se emplea para mejorar los efluentes del tratamiento biológico secundario. Se ha empleado la filtración rápida en arena para poder eliminar mejor los sólidos y nutrientes en suspensión y reducir la demanda bioquímica de oxígeno. (pasos adicionales como lagunas, microfiltración o desinfección).
             .row.justify-content-center.align-items-center
               .col-12.col-md-6.mt-4
                 ul.lista-ul.ms-4

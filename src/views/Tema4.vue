@@ -60,7 +60,7 @@
                     h3.mb-1.ms-4 Ficha
                     p.text-small.ms-4 Ficha de seguridad del cloro líquido
                   .col-sm-auto
-                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Ficha_de_seguridad_del_cloro_líquido.pdf')" target="_blank")
+                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Ficha_de_seguridad_del_cloro_liquido.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
         .col-12.col-md-6.col-lg-6

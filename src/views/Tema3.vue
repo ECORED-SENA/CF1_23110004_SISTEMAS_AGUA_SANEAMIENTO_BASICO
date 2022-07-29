@@ -94,7 +94,7 @@
             figure
               img(src="@/assets/curso/tema3/img05.png")(data-aos="fade-down-right")  
           .col-12.col-md-7.col-lg-7
-            p <b>Para la elaborar un análisis DOFA se deben tener en cuenta los siguientes criterios:</b> 
+            p <b>Para elaborar un análisis DOFA se deben tener en cuenta los siguientes criterios:</b> 
             ul.lista-ul(data-aos="fade-left")
               li 
                 <i class="fas fa-tint" style= "color:#3B76E5 !important;"></i>

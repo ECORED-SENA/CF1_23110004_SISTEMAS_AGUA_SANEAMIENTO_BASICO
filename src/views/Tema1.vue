@@ -172,8 +172,7 @@
         .col-12.col-md-12.col-lg-12
           figure.mb-5(data-aos="zoom-in-down")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video: Leyenda del video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/D5NyhfvS4ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
       p Y así, terminado todo el proceso, el agua es almacenada en tanques para su posterior distribución.
 
